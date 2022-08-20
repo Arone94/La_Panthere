@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -135,6 +135,11 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+
+.fa-twitter .fa-facebook .fa-dribbble .fa-instagram{
+    color: black;
+}
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -660,8 +665,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
+
+
 
 .container {
     max-width: 1000px;
@@ -745,7 +752,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -784,12 +791,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
+}
+
+.black{
+    color: black;
 }
 
 .btn-atomic-tangerine:hover {
