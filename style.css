@@ -550,6 +550,11 @@ a[data-lightbox] {
     text-align: center;
 }
 
+.social a{
+    border: 2px solid green;
+    padding: 13px 0px 0px 0px;
+}
+
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
