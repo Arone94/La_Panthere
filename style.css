@@ -718,6 +718,10 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img,
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    width: 100%;
+}
 
 .social {
     max-width: 400px;
