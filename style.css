@@ -376,14 +376,31 @@ span{
     z-index: 2;
 }
 
+#name{
+    margin-bottom: 10px;
+}
+
+#email{
+    margin-bottom: 10px;
+}
+
+#input_504{
+    margin-bottom: 10px;
+}
+
+#message{
+    margin-top: 10px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
         right: 20px;
+        list-style-type: none;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
